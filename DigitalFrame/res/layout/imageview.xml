@@ -1,0 +1,171 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/ctime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text=" " />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text=" " />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text=" " />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text=" " />
+
+    <TextView
+        android:id="@+id/rbtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView4"
+        android:layout_toLeftOf="@+id/textView4"
+        android:text=" " />
+
+    <TextView
+        android:id="@+id/rbdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rbtime"
+        android:layout_alignRight="@+id/rbtime"
+        android:text=" " />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text=" " />
+
+    <TextView
+        android:id="@+id/lbtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_toRightOf="@+id/textView3"
+        android:text=" " />
+
+    <TextView
+        android:id="@+id/lbdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/rbdate"
+        android:layout_alignBottom="@+id/rbdate"
+        android:layout_toRightOf="@+id/textView3"
+        android:text=" " />
+
+    <TextView
+        android:id="@+id/cdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ctime"
+        android:layout_alignLeft="@+id/ctime"
+        android:text=" " />
+
+    <TextView
+        android:id="@+id/ltdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_toRightOf="@+id/textView1"
+        android:text=" " />
+
+    <TextView
+        android:id="@+id/lttime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ltdate"
+        android:layout_below="@+id/ltdate"
+        android:text=" " />
+
+    <TextView
+        android:id="@+id/rtdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_toLeftOf="@+id/textView2"
+        android:text=" " />
+
+    <TextView
+        android:id="@+id/rttime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/textView2"
+        android:layout_below="@+id/rtdate"
+        android:text=" " />
+
+    <TextView
+        android:id="@+id/ltapmp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lttime"
+        android:layout_alignBottom="@+id/lttime"
+        android:layout_toRightOf="@+id/lttime"
+        android:text=" " />
+
+    <TextView
+        android:id="@+id/rtampm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/rttime"
+        android:layout_alignBottom="@+id/rttime"
+        android:layout_alignLeft="@+id/textView2"
+        android:text=" " />
+
+    <TextView
+        android:id="@+id/lbampm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lbtime"
+        android:layout_alignBottom="@+id/lbtime"
+        android:layout_toRightOf="@+id/lbdate"
+        android:text=" " />
+
+    <TextView
+        android:id="@+id/rbampm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/rbtime"
+        android:layout_alignBottom="@+id/rbtime"
+        android:layout_alignLeft="@+id/textView4"
+        android:text=" " />
+
+    <TextView
+        android:id="@+id/campm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ctime"
+        android:layout_alignBottom="@+id/ctime"
+        android:layout_toRightOf="@+id/ctime"
+        android:text=" " />
+
+</RelativeLayout>

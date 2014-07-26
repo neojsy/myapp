@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="vs_name">Copyright 2012 neojsy@gmail.com All Rights Reserved.</string>
+    <string name="version">Version</string>
+    <string name="main_bt_goviewer">Image view</string>
+    <string name="main_bt_setfolder">Set folder</string>
+    <string name="main_bt_dev">About app</string>
+    <string name="main_bt_setting">Setting</string>
+    <string name="main_info_setfolder">"Saved folder"</string>
+    <string name="main_info_setfolderurl">"Folder is not set."</string>
+    <string name="main_update">"Update Note"</string>
+    <string name="main_info_name">developer</string>
+    <string name="main_info_maker">AngryHighKick</string>
+    <string name="main_info_email">e-mail</string>
+    <string name="main_info_email_url">neojsy@gmail.com</string>
+    <string name="main_info_blog">blog</string>
+    <string name="main_info_blog_url">neojsy.tistory.com</string>
+    <string name="main_info_tk">Thanks for using</string>
+    <string name="main_info_des"></string>
+    <string name="check_bt_folder">Scan and save your folder infomation</string>
+    <string name="scan_folder_info1">The viewer scan the information of file.\nIt will be operated at your first access and path change. Re-can is recommended when folder add and file add.</string>
+    <string name="scan_folder_info2"></string>
+    <string name="view_msg_folderloaded"> image file is detected.</string>
+    <string name="view_msg_noimagefile">No image file. change folder.</string>
+    <string name="view_help_title">How to use</string>
+    <string name="view_help_normal">If you touch the screen will be changed to the next image. While maintaining the ratio, the image is displayed in the largest possible size of the device. If you touch the icon functions are executed.\n</string>
+    <string name="view_help_del">Delete the currently displayed image file.</string>
+    <string name="view_help_info">The information currently displayed image file is displayed.</string>
+    <string name="view_help_ss">Launch the slideshow.</string>
+    <string name="view_help_sschange">Replacement cycle will change the image of the slide show.</string>
+    <string name="sp_info">Please set your root folder\nDo not set /mnt/sdcard\nex) /mnt/sdcar/dcim</string>
+    <string name="sp_msg_saved"> is saved.</string>
+    <string name="sp_msg_notexistfolder">folder is not exist. please set another path.</string>
+    <string name="sp_msg_nonotsdcard">/mnt/sdcard can not be set. please set another path</string>
+    <string name="sp_save">Save this folder path</string>
+    <string name="wg_loadingt">File scanning...</string>
+    <string name="wg_loadingm">All files in selected folders are scanning. Please wait a moment.</string>
+    <string name="setting_charging">Charge the auto-run</string>
+    <string name="setting_charging_info">Executed application automatically when charging.</string>
+    <string name="setting_screensize">Image display mode</string>
+    <string name="setting_screensize_info">How to change the size is different than the size and proportions of the images and LCD sets.</string>
+    <string name="setting_nonoff">Prevent scree off</string>
+    <string name="setting_nonoff_info">Application works When time passes, the screen does not turn off.</string>
+    <string name="setting_interval">Image change time</string>
+    <string name="setting_interval_info">Adjust the image to change when the time interval.</string>
+    <string name="setting_clock">Display clock</string>
+    <string name="setting_clock_info">Display date and time.</string>
+    <string name="setting_clock_size">Clock size</string>
+    <string name="setting_clock_size_info">Set clock size.</string>
+    <string name="setting_clock_color">Clock color</string>
+    <string name="setting_clock_color_info">Set clock color.</string>
+    <string name="setting_clock_pos">Clock position</string>
+    <string name="setting_clock_pos_info">Set clock position.</string>
+    <string name="setting_clock_size_1">Very small</string>
+    <string name="setting_clock_size_2">Small</string>
+    <string name="setting_clock_size_3">Normal</string>
+    <string name="setting_clock_size_4">Large</string>
+    <string name="setting_clock_size_5">Very large</string>
+    <string name="setting_clock_color_BLACK">BLACK</string>
+    <string name="setting_clock_color_DKGRAY">DKGRAY</string>
+    <string name="setting_clock_color_GRAY">GRAY</string>
+    <string name="setting_clock_color_LTGRAY">LTGRAY</string>
+    <string name="setting_clock_color_WHITE">WHITE</string>
+    <string name="setting_clock_color_RED">RED</string>
+    <string name="setting_clock_color_GREEN">GREEN</string>
+    <string name="setting_clock_color_BLUE">BLUE</string>
+    <string name="setting_clock_color_YELLOW">YELLOW</string>
+    <string name="setting_clock_color_CYAN">CYAN</string>
+    <string name="setting_clock_color_MAGENTA">MAGENTA</string>
+    <string name="setting_clock_pos_center">Center</string>
+    <string name="setting_clock_pos_lt">Left Top</string>
+    <string name="setting_clock_pos_rt">Right Top</string>
+    <string name="setting_clock_pos_lb">Left Bottom</string>
+    <string name="setting_clock_pos_rb">Right Bottom</string>
+    <string name="setting_interval_3s">3sec</string>
+    <string name="setting_interval_5s">5sec</string>
+    <string name="setting_interval_10s">10sec</string>
+    <string name="setting_interval_15s">15sec</string>
+    <string name="setting_interval_30s">30sec</string>
+    <string name="setting_interval_60s">60sec</string>
+    <string name="setting_screensize_imagefull">Full image</string>
+    <string name="setting_screensize_screenfull">Full scree</string>
+    <string name="viewer_sun">Sunday</string>
+    <string name="viewer_mon">Monday</string>
+    <string name="viewer_tus">Tuesday</string>
+    <string name="viewer_wen">Wednesday</string>
+    <string name="viewer_thu">Thursday</string>
+    <string name="viewer_fri">Friday</string>
+    <string name="viewer_sat">Saturday</string>
+    <string name="update0001">        V alpha (2012.10.12)    
+        \n- Created!
+		\n\n	</string>
+
+</resources>
