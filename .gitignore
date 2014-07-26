@@ -1,6 +1,8 @@
 #################
 ## Eclipse
 #################
+R.java
+BuildConfig.java
 *.IAB
 *.IAD
 *.IMB
