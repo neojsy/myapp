@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/list_selector"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="30dip" >
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="280dip"
+            android:layout_height="120dip"
+            android:onClick="mOnClick10"
+            android:src="@drawable/select1" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageButton1"
+            android:layout_alignRight="@+id/imageButton1"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="추천 팟캐스트"
+                        android:shadowColor="#696969"
+            android:shadowDx="2.0"
+            android:shadowDy="2.0"
+            android:shadowRadius="2.0"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="30dip" >
+
+        <ImageButton
+            android:id="@+id/imageButton12"
+            android:layout_width="280dip"
+            android:layout_height="120dip"
+            android:layout_gravity="center_horizontal"
+            android:onClick="mOnClick11"
+            android:src="@drawable/select2" />
+        
+                <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageButton12"
+            android:layout_alignRight="@+id/imageButton12"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="방송국 라디오 팟캐스트"
+                        android:shadowColor="#696969"
+            android:shadowDx="2.0"
+            android:shadowDy="2.0"
+            android:shadowRadius="2.0"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="30dip" >
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="280dip"
+            android:layout_height="120dip"
+            android:layout_gravity="center_horizontal"
+            android:onClick="mOnClick20"
+            android:src="@drawable/select3" />
+        
+                <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageButton2"
+            android:layout_alignRight="@+id/imageButton2"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="URL 직접 입력"
+                        android:shadowColor="#696969"
+            android:shadowDx="2.0"
+            android:shadowDy="2.0"
+            android:shadowRadius="2.0"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/list_selector"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ProgressBar
+            android:id="@+id/ID_PGB_RCVPER"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_centerInParent="true"
+            android:max="100"
+            android:progress="0" >
+        </ProgressBar>
+
+        <TextView
+            android:id="@+id/dtotalk"
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/ID_PGB_RCVPER"
+            android:text="totalk"
+            android:textColor="#00000000"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/ddownk"
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/ID_PGB_RCVPER"
+            android:text="ddownk"
+            android:textColor="#00000000"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/dpercent"
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:layout_alignTop="@+id/ID_PGB_RCVPER"
+            android:layout_centerHorizontal="true"
+            android:text="dpercent"
+            android:textColor="#00000000"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/dtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="35dip"
+            android:layout_below="@+id/ddownk"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="dtitle"
+            android:textColor="#00000000"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/dstatus"
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:layout_below="@+id/dtitle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="dstatus"
+            android:textColor="#00000000"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/dpicture1"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_above="@+id/ID_PGB_RCVPER"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="22dp"
+            android:src="@drawable/f1" />
+    </RelativeLayout>
+
+</LinearLayout>

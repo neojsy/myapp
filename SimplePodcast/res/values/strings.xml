@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Simple Podcast</string>
+    <string name="yes">확인</string>
+    <string name="no">취소</string>
+    <string name="main_info_name">개발자</string>
+    <string name="main_info_maker">분노의하이킥</string>
+    <string name="main_info_email">이메일</string>
+    <string name="main_info_email_url">neojsy@gmail.com</string>
+    <string name="main_info_blog">블로그</string>
+    <string name="main_info_blog_url">neojsy.tistory.com</string>
+    <string name="main_info_tk">꼼꼼하고 세심하게...\n도덕적으로 완벽한...</string>
+    <string name="main_info_my">SimplePodcast는...
+        \n\n스트리밍을 지원하지 않습니다. 스트리밍은 제공업체에 부담을 주기 때문입니다. 결코 하기 싫어서가 아닙니다.
+        \n\n업데이트와 음원다운로드를 제외하고는 네트워크에 접속하지 않고 모두 폰에 저장합니다. 덕분에 동작은 빠르지만 문제가 생기면 해당 팟캐스트를 삭제하고 다시 추가해 주세요.
+        \n\n멀티 다운로드를 제공합니다. 다운 중이라도 원하는 에피소드를 터치하면 대기목록에 추가되어 연속으로 다운로드 됩니다. 너무 많이 대기시키면 느려질지도 모릅니다.</string>
+    <string name="msg_downloadstartnoti">다운로드를 준비 중입니다.</string>
+    <string name="msg_downloadendnoti">다운로드가 완료 되었습니다.</string>
+    <string name="msg_downloaderror">저장공간이 부족합니다.</string>
+    <string name="mnu_add">팟캐스트 추가</string>
+    <string name="mnu_update">팟캐스트 업데이트</string>
+    <string name="mnu_setting">옵션</string>
+    <string name="mnu_info">어플정보</string>
+    <string name="mnu_jeonghwa">정화의시간</string>
+    <string name="msg_allupdatefail">의 업데이트를 실패하였습니다. 네트워크 연결이 좋지 않거나 음원 제공 서버에 문제가 있을 수 있습니다. 확인하시고 다시 시도해 주세요.</string>
+    <string name="msg_oneupdatefail">업데이트를 실패하였습니다. 네트워크 연결이 문제가 있거나 음원 서버에 문제가 있을 수 있습니다. 확인하시고 다시 시도해 주세요.</string>
+    <string name="msg_allupdateloading">전체 팟캐스트의 에피소드 정보를 업데이트 하고 있습니다.</string>
+    <string name="msg_oneupdateloading">의 팟캐스트의 에피소드 정보를 업데이트 하고 있습니다.</string>
+    <string name="msg_allupdateloadingend">전체 팟캐스트의 에피소드 정보 업데이트가 완료되었습니다.</string>
+    <string name="msg_oneupdateloadingend">팟캐스트의 에피소드의 정보 업데이트가 완료되었습니다.</string>
+    <string name="msg_dontplayfiledownload">다운로드 중인 파일은 플레이할 수 없습니다. 완료될때까지 기다려주세요.</string>
+    <string name="msg_addpodcast">옵션>추가를 통해 팟캐스트를 추가해 주세요.</string>
+    <string name="msg_describe">개의 팟캐스트 구독.</string>
+    <string name="msg_update">마지막 전체 업데이트.</string>
+    <string name="msg_deleteCast">팟캐스트를 삭제 하겠습니까?</string>
+    <string name="msg_deleteFile">음원파일을 삭제 하겠습니까?</string>
+    <string name="msg_deleteCasting">팟캐스트의 정보와 다운로드받은 파일들을 삭제 하고 있습니다.</string>
+    <string name="msg_downloadCast">를 다운로드 하시겠습니까?</string>
+    <string name="msg_loadingCastAdd">의 팟캐스트 정보를 가져오고 있습니다.</string>
+    <string name="msg_SavingCastAdd">가져온 팟캐스트 정보를 저장하고 있습니다.</string>
+    <string name="msg_loadingCastAddInput">입력한 URL의 팟캐스트 정보를 가져오고 있습니다.</string>
+    <string name="msg_duplicateCast">이미 추가된 팟캐스트입니다.</string>
+    <string name="msg_downloadstart">의 음원파일을 다운로드 합니다.</string>
+    <string name="msg_downloadfinish">의 음원파일의 다운로드가 완료 되었습니다.</string>
+    <string name="msg_downloadmemoryerror">메모리가 부족합니다. 공간을 확보하고 다시 시도해주세요.</string>
+    <string name="msg_networkerror">네트워크 상태가 좋지 않습니다.</string>
+    <string name="msg_notcomwork">네트워크 상태가 좋지 않습니다.</string>
+    <string name="tit_eyerser">이어서 들으시겠습니까?</string>
+    <string name="tit_eyerok">이어서</string>
+    <string name="tit_eyernono">처음부터</string>
+    <string name="tit_totalepisode">전체 에피소드</string>
+    <string name="tit_download">다운로드 중...</string>
+    <string name="tit_new">안들음</string>
+    <string name="tit_not_complete">듣는중</string>
+    <string name="tit_complete">다들음</string>
+    <string name="tit_downloadmp3">음원파일 다운로드</string>
+    <string name="tit_deletemp3">음원파일 삭제</string>
+    <string name="tit_markcomplete">다들음으로 변경</string>
+    <string name="tit_markuncomplete">안들음으로 변경</string>
+    <string name="tit_markcompleteUnder">이전 모든 에피소드를 다들음으로 변경</string>
+    <string name="tit_markhide">책갈피로 설정</string>
+    <string name="msg_markhideHelp">너무 많은 에피소드가 있을때는 리스트 컨트롤이 쉽지 않습니다. 이 기능을 통해 선택한 에피소드의 이전 에피소드들은 리스트에 보이지 않게 됩니다. 책갈피와 모드변경(옵션>리스트 모드 변경)은 언제나 설정 변경이 가능합니다.</string>
+    <string name="msg_canceldown">다운로드를 취소하시겠습니까?</string>
+    <string name="msg_downcanceled">다운로드가 취소 되었습니다.</string>
+    <string name="msg_allread">모든 에피소드를 모두들음 으로 변경 하시겠습니까?</string>
+    <string name="msg_allunread">모든 에피소드를 듣지않음 으로 변경 하시겠습니까?</string>
+    <string name="msg_viewmodechangeall">모든 에피소드를 표시하도록 변경하시겠습니까?</string>
+    <string name="msg_viewmodechangehide">책갈피 이후 에피소드만 표시하도록 변경하시겠습니까?</string>
+    <string name="mnu_allunread">모두 안들음으로</string>
+    <string name="mnu_allread">모두 다들음으로</string>
+    <string name="mnu_viewmode">보기 모드 변경</string>
+    <string name="mnu_viewmodeall">모두 보기 모드</string>
+    <string name="mnu_viewmodehide">책갈피 보기 모드</string>
+    <string name="mnu_add_recommed">추천 팟캐스트</string>
+    <string name="mnu_add_radio">라디오 방송</string>
+    <string name="mnu_add_write">주소 직접 입력</string>
+    <string name="mnu_famo_politic">정치/사회</string>
+    <string name="mnu_famo_culture">문화/예술</string>
+    <string name="mnu_famo_economy">경제/교육</string>
+    <string name="mnu_famo_etc">기타</string>
+    <string name="setting_externalplayeruse">외부 플레이어 사용</string>
+    <string name="setting_autodeletefile">다들은 음원파일 자동 삭제</string>
+    <string name="setting_seektime">플레이어 시간 이동</string>
+    <string name="setting_castinfo">팟캐스트 정보</string>
+    <string name="setting_listpos">에피소드 진입시 리스트 위치</string>
+    <string name="setting_listposinfo">에피소드의 갯수가 너무 많으면 원하는 곳으로 스크롤시에 에로사항이 꽃핍니다. 듣지 않은 에피소드로 바로 이동할 수 있게 설정할 수 있습니다.</string>
+    <string name="setting_externalplayeruseinfo">음원을 플레이할때 자체플레이어 대신 외부플레이어를 사용합니다. 이어듣기 시간저장 자동삭제 등이 작동하지 않습니다.</string>
+    <string name="setting_autodeletefileinfo">음원을 다듣고 자동 종료될때 해당 에피소드의 음원파일을 자동 삭제합니다. 외부플레이어 사용시나 동영상 플레이시는 작동하지 않습니다.</string>
+    <string name="setting_seektimeinfo">플레이어의 앞 뒤로 빠른 이동 버튼의 이동 시간을 설정합니다.</string>
+    <string name="setting_castinfoinfo">팟캐스트 리스트에 출력될 정보를 선택합니다. 청취 정보를 선택하면 페이지 이동이 늦어질 수 있습니다.</string>
+    <string name="episode_notsupportedformat">지원하지 않는 파일입니다.</string>
+    <string name="main_updateinfo">업데이트노트</string>
+    <string name="addurl_inputurl">추가할 팟캐스트의 주소를 입력하세요.</string>
+    <string name="setting_epiinfo">팟캐스트 설명</string>
+    <string name="setting_listeninfo">청취 정보</string>
+    <string name="setting_5s">5초</string>
+    <string name="setting_15s">15초</string>
+    <string name="setting_30s">30초</string>
+    <string name="setting_1m">1분</string>
+    <string name="setting_2m">2분</string>
+    <string name="setting_5m">5분</string>
+    <string name="setting_list_def">가장 최근 에피소드로 (기본)</string>
+    <string name="setting_list_first">가장 최근 안들은 에피소드로</string>
+    <string name="setting_list_last">가장 오래된 안들은 에피소드로</string>
+    <string name="epi_lasttime">마지막 재생 시간</string>
+    <string name="main_notice">알립니다!</string>
+    <string name="main_notice_info">부족한게 많지만 기능에 대한 의견이나 버그, 팟캐스트 추가는 neojsy@gmail.com으로 보내주세요!</string>
+    <string name="updatenote">업데이트 노트</string>
+    <string name="app_ver">v3.9.5</string>
+    <string name="update001">
+        \nV 3.9.5 (2013.02.27)
+        \n-추천 팟캐스트 업데이트
+        \n-라디오 팟캐스트 업데이트
+        \n\n
+        \nV 3.9.4 (2012.12.10)
+        \n-추가되지 않은 팟캐스트가 이미 존재한다고 나오며 추가되지 않는 문제 수정하였습니다.
+        \n-추천리스트 업데이트
+        \n\n
+        \nV 3.9.3 (2012.10.26)
+        \n-추천리스트 업데이트 (TED왕창, 그리고...)
+        \n\n
+        \nV 3.9.2 (2012.10.16)
+        \n-전화관련 권한때문에 WIFI전용 기기에서 업데이트나 검색되지 않는 문제 수정하였습니다.
+        \n\n
+        \nV 3.9.1 (2012.10.15)
+        \n-전화를 받을때 자동정지, 끊을때 자동시작이 될 수 있도록 하였습니다.
+        \n-추천팟캐스트 업데이트 하였습니다.
+        \n\n
+		\nV 3.9 (2012.09.14)
+        \n-플레이어가 독립되었습니다. 이제 플레이 중이라도 다른 기능을 이용할 수 있으며, 노티바를 통해 플레이어로 복귀할 수 있습니다.
+        \n-일부 팟캐스트에서 다운로드가 되지 않는 문제가 수정되었습니다.
+        \n-플레이어와 다른 UI들의 디자인이 변경되었습니다.
+        \n\n
+        \nV 3.6 (2012.06.21)
+        \n업데이트 오류시 무한시도하는 문제 수정
+        \n팟캐스트 업데이트
+        \n\n
+        \nV 3.5 (2012.06.11)
+        \n리스트 진입시 위치 조정
+        \n캐스트 정보 다들음과 듣는중 바뀐 문제 수정
+        \n팟캐스트 업데이트
+        \n\n		\nV 3.4 (2012.06.07)
+        \n팟캐스트 이미지 크기 잘못 나오는 오류 수정
+        \n리스트 북마크 기능 삭제
+        \n리스트 진입 위치 설정 기능 추가
+        \n정화의 시간 업데이트
+        \n\n
+    	\nV 3.2 (2012.06.04)
+        \n다운로드 대기 표시
+        \n800X480이상에서 UI출력 보정
+        \nm4a 플레이 지원
+        \n\n
+    	\nV 3 (2012.05.31)
+        \n팟캐스트리스트 스크롤 속도 향상
+        \n추천리스트에서 잘못된 리스트가 나오는 현상 수정
+        \n팟캐스트리스트의 정보 출력 종류 변경 및 세팅 추가
+        \nGUI 정리 및 변경
+        \n팟캐스트 추가
+        \n버전 정보 단순화
+        \n\n
+    	\nV 2.6.6 (2012.05.24)
+        \n재생 종료 후 음원 자동삭제 옵션 추가
+        \n플레이어 빠른 이동 시간 설정 옵션 추가
+        \n팟캐스트 정보 못가져올때 back키로 정지
+        \nGUI 정리 및 변경
+        \n다운로드 완료하면 알림 삭제
+        \n플레이어 빠른 이동을 한가지로 정리
+        \n추천 팟캐스트 업데이트
+        \n\n
+    	\nV 2.2.4 (2012.05.17)
+        \n플레이어 seek bar
+        \n에피소드 상태 색 구별
+        \n팟캐스트 주소 추가 팝업 형태로
+        \n\n		\n\nV 2.0.3 (2012.05.16)
+        \n메인 옵션 메뉴
+        \n외부 플레이어 사용 가능
+        \n외부 플레이어 이용 동영상 팟캐스트
+        \n업데이트 노트 팝업
+        \n목록창 배경 이미지
+        \nYes/No 팝업 back키 동작하게
+        \n요약문에서 HTML 태그 제거
+        \n뉴스타파 추가
+        \n최진기의 인문학 특강 추가
+        \n오마이스쿨 온라인강좌 추가
+        \n오마이스쿨 경제학 특강 추가
+        \n김어준의 색다른 상담소 추가
+        \n망치부인의 시사수다방
+        \n\n		\nV 1.4.7 (2012.05.14)
+        \n추천 팟캐스트 카테고리 탭 리스트
+        \n팟캐스트 추가 페이지 디자인\n\n       	\nV 1.3.2 (2012.05.13) 
+        \n모든 에피소드의 상태를 변경하는 옵션
+        \n에피소드 책갈피 설정과 보기 모드 추가
+        \n노티바를 통한 다운로드 추가
+        \n플레이어 디자인 변경
+        \nCBS 라디오 방송 추가
+		\n일부 팟캐스트 업데이트시 어플 죽는 문제
+		\nKBS 리스트 사진 손석희로 나오는 문제</string>
+
+</resources>

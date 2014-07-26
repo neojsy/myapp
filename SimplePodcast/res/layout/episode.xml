@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_selector"
+        android:orientation="horizontal"
+        android:padding="0px" >
+
+        <!-- ListRow Left sied Thumbnail image -->
+
+        <LinearLayout
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="6dp"
+            android:background="@drawable/image_bg"
+            android:padding="0px" >
+
+            <ImageView
+                android:id="@+id/imageViewh1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/no" />
+        </LinearLayout>
+
+        <!-- Title Of Song -->
+
+        <TextView
+            android:id="@+id/episode_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dip"
+            android:layout_toRightOf="@+id/title"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:shadowColor="#808080"
+            android:shadowDx="2.0"
+            android:shadowDy="2.0"
+            android:shadowRadius="2.0"
+            android:text="TITLE"
+            android:textColor="#333333"
+            android:textSize="27px"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/episode_viewmode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/episode_title"
+            android:layout_marginRight="15px"
+            android:layout_marginTop="4px"
+            android:layout_toRightOf="@+id/title"
+            android:text=" "
+            android:textColor="#9999ff"
+            android:textSize="13px" />
+
+        <TextView
+            android:id="@+id/episode_listenInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/episode_viewmode"
+            android:layout_marginTop="2px"
+            android:layout_toRightOf="@+id/title"
+            android:text="DESC"
+            android:textColor="#343434"
+            android:textSize="16px" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ListView
+            android:id="@+id/ListView01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:listSelector="@drawable/list_selector" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>
