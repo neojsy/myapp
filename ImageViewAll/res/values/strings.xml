@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="version">Version</string>
+    <string name="main_info_intro">all images include sub folders\nshuffle display order\nfile delete function</string>
+    <string name="main_bt_goviewer">Image view</string>
+    <string name="main_bt_rescan">Re-scan</string>
+    <string name="main_bt_setfolder">Set folder</string>
+    <string name="main_bt_info">Ver. info</string>
+    <string name="main_bt_dev">About app</string>
+    <string name="main_bt_setting">Setting</string>
+    <string name="main_info_setfolder">"Saved folder"</string>
+    <string name="main_info_setfolderurl">"Folder is not set."</string>
+    <string name="main_update">"Update Note"</string>
+    <string name="main_info_version">"Version"</string>
+    <string name="main_info_name">developer</string>
+    <string name="main_info_maker">AngryHighKick</string>
+    <string name="main_info_email">e-mail</string>
+    <string name="main_info_email_url">neojsy@gmail.com</string>
+    <string name="main_info_blog">blog</string>
+    <string name="main_info_blog_url">neojsy.tistory.com</string>
+    <string name="main_info_tk">Thanks for using</string>
+    <string name="main_info_des">Image viewer for simple UI, fast speed, random order, delete function and including all sub folders.</string>
+    <string name="check_bt_folder">Scan and save your folder infomation</string>
+    <string name="scan_folder_info1">The viewer scan the information of file.\nIt will be operated at your first access and path change. Re-can is recommended when folder add and file add.</string>
+    <string name="scan_folder_info2"></string>
+    <string name="view_msg_folderloaded"> image file is detected.</string>
+    <string name="view_msg_noimagefile">No image file. change folder.</string>
+    <string name="view_msg_ssstart">Slideshow start.\nTouch the screen, Slideshow will finish.</string>
+    <string name="view_msg_ssfinish">Slideshow finish.</string>
+    <string name="view_msg_sstimechanged">Time interval changed</string>
+    <string name="view_msg_sec">Second</string>
+    <string name="view_msg_delete">delete file?</string>
+    <string name="view_msg_deleted">file is deleted.</string>
+    <string name="view_msg_moved">file is moved.</string>
+    <string name="view_msg_clash"> file is invalid and deleted.</string>
+    <string name="view_msg_move">File move</string>
+    <string name="view_msg_moveok">Move</string>
+    <string name="view_msg_moveback">Cancel</string>
+    <string name="view_msg_movefolder">Set Folder</string>
+    <string name="view_msg_moveinfo">This is file moving function. If you set a folder to move the file, folder path is remembered. At any time can be changed through the folder settings.</string>
+    <string name="view_msg_moveq">File move to below folder?\n</string>
+    <string name="view_help_title">How to use</string>
+    <string name="view_help_normal">If you touch the screen will be changed to the next image. While maintaining the ratio, the image is displayed in the largest possible size of the device. If you touch the icon functions are executed.\n</string>
+    <string name="view_help_del">Delete the currently displayed image file.</string>
+    <string name="view_help_info">The information currently displayed image file is displayed.</string>
+    <string name="view_help_ss">Launch the slideshow.</string>
+    <string name="view_help_sschange">Replacement cycle will change the image of the slide show.</string>
+    <string name="sp_info">Please set your root folder\nDo not set /mnt/sdcard\nex) /mnt/sdcar/dcim</string>
+    <string name="sp_msg_saved"> is saved.</string>
+    <string name="sp_msg_notexistfolder">folder is not exist. please set another path.</string>
+    <string name="sp_msg_nonotsdcard">/mnt/sdcard can not be set. please set another path</string>
+    <string name="sp_save">Save this folder path</string>
+    <string name="st_bt_viewer"> Viewer Setting</string>
+    <string name="st_bt_delete"> File Delete Function</string>
+    <string name="st_bt_delpopup"> File Delete warning popup</string>
+    <string name="st_bt_info"> File Infomation Function</string>
+    <string name="st_bt_ss"> Slide Show Function</string>
+    <string name="st_bt_move1"> File Move Function</string>
+    <string name="st_bt_move2"> File Move Function 2</string>
+    <string name="st_bt_move3"> File Move Function 3</string>
+    <string name="st_bt_moveset"> ㄴFile Move Folder Set</string>
+    <string name="st_bt_wsetting"> Widget Setting</string>
+    <string name="st_bt_wset"> Select slot using widget.</string>
+    <string name="wg_loadingt">File scanning...</string>
+    <string name="wg_loadingm">All files in selected folders are scanning. Please wait a moment.</string>
+    <string name="update0001">        V 1.0 (2012.02.27)    
+        \n- Android market released.
+		\n- Base folder path save.
+		\n- include all sub folders of base folder.
+		\n- random order display.
+		\n- displayed File delete.
+		\n\n	</string>
+    <string name="update0002">        V 1.5 (2012.03.01)  
+        \n -Slideshow function added.
+		\n -App information page added.
+		\n -Viewer icon changed.
+		\n -Viewer image change speed improved.
+		\n -Loading animation added.
+		\n\n	</string>
+    <string name="update0003">        V 2.0 (2012.03.03)  
+        \n -Way of Path setting was changed to explorer.
+		\n -After Path setting, image of previous Path was displayed. changed to auto re-scan.
+		\n -App Icon changed.
+		\n -Main page layout changed.
+		\n -User slot add.
+		\n -In order to support different LCD size devices, Object Size unit was changed to DPI.
+		\n\n	</string>
+    <string name="update0004">        V 2.7 (2012.03.10) 
+        \n -Improved search algorithm.
+	    \n -App setting page added.
+	    \n -File delete warning popup added.
+	    \n -Viewer help page added.
+	    \n -Separate application and version information.
+	    \n -App Icon changed.
+	    \n -Main page layout changed.
+	    \n -Viewer icon changed.
+	    \n -Fixed file size of zero dead.
+	    \n\n  	</string>
+    <string name="update0005">		V 3.0 (2012.03.11)    
+		\n- App name changed.
+		\n- Viewer icon changed.
+	    \n- When app update,  Delete previous versions of data.
+	    \n\n</string>
+    <string name="update0006">		V 3.2 (2012.03.15)    
+		\n- File move function added.
+		\n- Icon changed.
+	    \n- When the viewer is running, abnormal Delete Files.
+	    \n- /mnt /sdcard folder can be specified to change.
+	    \n\n</string>
+    <string name="update0007">	V 3.6 (2012.03.15)
+        \n- Widget added.    
+		\n- Folder explorer layout changed.
+		\n- After app update, to maintain folder setting .
+	    \n- Scroll effect of long additional sentence added.
+	    \n- Death in the absence of an image file in the selected folder is Fixed.
+	    \n\n</string>
+    <string name="update0008">V 3.8 (2012.03.24)
+        \n- Widgets and apps have been separated. Now the widget folder will be set at runtime.
+        \n- UI adjustment for multiple resolution devices.
+        \n- Foler scaning info page removed.
+		\n\n
+</string>
+    <string name="update0009">	V 4.0 (2012.04.05)
+        \n- Animation GIF supported.
+		\n\n
+</string>   
+    
+    <string name="gag"></string>
+
+</resources>

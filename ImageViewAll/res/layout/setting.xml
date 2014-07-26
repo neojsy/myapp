@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:background="#eeeeee"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/head3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#dddddd"
+        android:text="@string/st_bt_viewer"
+        android:textColor="#000000"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:background="#adadad"
+        android:text="" />
+
+    <CheckBox
+        android:id="@+id/CheckBoxDel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/st_bt_delete"
+        android:textColor="#000000"
+        android:textSize="20dp" >
+    </CheckBox>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:background="#adadad"
+        android:text="" />
+
+    <CheckBox
+        android:id="@+id/CheckBoxDelPopup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/st_bt_delpopup"
+        android:textColor="#000000"
+        android:textSize="20dp" >
+    </CheckBox>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:background="#adadad"
+        android:text="" />
+
+    <CheckBox
+        android:id="@+id/CheckBoxInfo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/st_bt_info"
+        android:textColor="#000000"
+        android:textSize="20dp" >
+    </CheckBox>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:background="#adadad"
+        android:text="" />
+
+    <CheckBox
+        android:id="@+id/CheckBoxSs"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/st_bt_ss"
+        android:textColor="#000000"
+        android:textSize="20dp" >
+    </CheckBox>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:background="#adadad"
+        android:text="" />
+
+    <CheckBox
+        android:id="@+id/CheckBoxMov"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/st_bt_move1"
+        android:textColor="#000000"
+        android:textSize="20dp" >
+    </CheckBox>
+    
+        <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:background="#adadad"
+        android:text="" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:background="#eeeeee"
+        android:text="" />
+
+    
+</LinearLayout>

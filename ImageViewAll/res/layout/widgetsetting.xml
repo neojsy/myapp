@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/devinfo"
+        android:layout_width="fill_parent"
+        android:layout_height="18dp"
+        android:layout_margin="5dp"
+        android:text="@string/wg_info"
+        android:textColor="#ffffff"
+        android:textSize="14dp" />
+
+    <RadioGroup
+        android:id="@+id/radiog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" SLOT 1" >
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" SLOT 2" >
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/radio3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" SLOT 3" >
+        </RadioButton>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textViewws2"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        android:text=" "
+        android:textColor="#ffffff"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/buttonws"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:onClick="mOnClickWg"
+        android:text="Button"
+        android:textColor="#000000"
+        android:textSize="16dp" />
+
+</LinearLayout>

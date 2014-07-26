@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#00000000" >
+
+    <ImageView
+        android:id="@+id/widgetimage3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="center" />
+
+    <Button
+        android:id="@+id/wbutton3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#00000000"
+        android:padding="12dip"
+        android:shadowColor="#696969"
+        android:shadowDx="2.0"
+        android:shadowDy="2.0"
+        android:shadowRadius="2.0"
+        android:text=" "
+        android:textSize="20dp" />
+
+</FrameLayout>

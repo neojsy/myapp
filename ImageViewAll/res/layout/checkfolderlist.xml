@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+	<TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:textSize="10dp"
+	    android:text=" " />
+
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >	
+		 
+		<ImageView
+		   android:layout_width="wrap_content"
+		   android:layout_height="wrap_content"
+		   android:gravity="center"
+		   android:src="@drawable/scan" />     
+	</LinearLayout>
+	
+	<TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:textSize="10dp"
+	    android:text=" " />
+		 
+	<TextView
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:textColor="#ffffff"
+	     android:textSize="14dp"
+	     android:layout_margin="14dp"
+	     android:text="@string/scan_folder_info1" />
+
+	<TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:textSize="10dp"
+	    android:text=" " />
+			
+	<Button
+	     android:id="@+id/call"
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:textColor="#000000"
+	     android:textSize="16dp"
+	     android:onClick="mOnClickCheck"
+	     android:layout_margin="14dp"
+	     android:gravity="center"
+	     android:text="@string/check_bt_folder" />
+ 
+    	
+</LinearLayout>

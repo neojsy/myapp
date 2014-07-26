@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+    //5-1
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0px"
+        android:layout_weight="6"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/main" />
+        </LinearLayout>
+    </LinearLayout>
+    //5-1
+    
+    //5-2
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="10"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+		//title
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="2px"
+                android:background="#eeeeee"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/head1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:shadowColor="#696969"
+            android:shadowDx="2.0"
+            android:shadowDy="2.0"
+            android:shadowRadius="2.0"
+            android:singleLine="true"
+                android:text=" SLOT1 "
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="2px"
+                android:background="#adadad"
+                android:text="" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="4px"
+                android:text="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+		//button
+
+            <Button
+                android:id="@+id/call1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="10"
+                android:drawableTop="@drawable/mview"
+                android:onClick="mOnClick11"
+                android:text="@string/main_bt_goviewer"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:typeface="sans" />
+
+            <Button
+                android:id="@+id/call2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="13"
+                android:drawableTop="@drawable/mrescan"
+                android:onClick="mOnClick12"
+                android:text="@string/main_bt_rescan"
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:typeface="sans" />
+
+            <Button
+                android:id="@+id/call3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="13"
+                android:drawableTop="@drawable/mfolder"
+                android:onClick="mOnClick13"
+                android:text="@string/main_bt_setfolder"
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:typeface="sans" />
+        </LinearLayout>
+    </LinearLayout>
+ 	//5-2
+
+    //5-3
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="10"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+		//title
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="2px"
+                android:background="#eeeeee"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/head2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:shadowColor="#696969"
+            android:shadowDx="2.0"
+            android:shadowDy="2.0"
+            android:shadowRadius="2.0"
+            android:singleLine="true"
+                android:text=" SLOT2 "
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="2px"
+                android:background="#adadad"
+                android:text="" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="4px"
+                android:text="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+		//button
+
+            <Button
+                android:id="@+id/call1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="10"
+                android:drawableTop="@drawable/mview"
+                android:onClick="mOnClick21"
+                android:text="@string/main_bt_goviewer"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:typeface="sans" />
+
+            <Button
+                android:id="@+id/call2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="13"
+                android:drawableTop="@drawable/mrescan"
+                android:onClick="mOnClick22"
+                android:text="@string/main_bt_rescan"
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:typeface="sans" />
+
+            <Button
+                android:id="@+id/call3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="13"
+                android:drawableTop="@drawable/mfolder"
+                android:onClick="mOnClick23"
+                android:text="@string/main_bt_setfolder"
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:typeface="sans" />
+        </LinearLayout>
+    </LinearLayout>
+ 	//5-3
+ 	
+	//5-4
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="10"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+		//title
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="2px"
+                android:background="#eeeeee"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/head3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:shadowColor="#696969"
+            android:shadowDx="2.0"
+            android:shadowDy="2.0"
+            android:shadowRadius="2.0"
+            android:singleLine="true"
+                android:text=" SLOT3 "
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="2px"
+                android:background="#adadad"
+                android:text="" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="4px"
+                android:text="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+		//button
+
+            <Button
+                android:id="@+id/call1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="10"
+                android:drawableTop="@drawable/mview"
+                android:onClick="mOnClick31"
+                android:text="@string/main_bt_goviewer"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:typeface="sans" />
+
+            <Button
+                android:id="@+id/call2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="13"
+                android:drawableTop="@drawable/mrescan"
+                android:onClick="mOnClick32"
+                android:text="@string/main_bt_rescan"
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:typeface="sans" />
+
+            <Button
+                android:id="@+id/call3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="13"
+                android:drawableTop="@drawable/mfolder"
+                android:onClick="mOnClick33"
+                android:text="@string/main_bt_setfolder"
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:typeface="sans" />
+        </LinearLayout>
+    </LinearLayout>
+ 	//5-4
+ 	
+ 	//5-5
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="9"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+		//title
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="2px"
+                android:background="#eeeeee"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/head3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#dddddd"
+                android:text=" OPTION "
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="2px"
+                android:background="#adadad"
+                android:text="" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="4px"
+                android:text="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+		//button
+
+            <Button
+                android:id="@+id/call1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="10"
+                android:drawableTop="@drawable/msetting"
+                android:onClick="mOnClickSetting"
+                android:text="@string/main_bt_setting"
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:typeface="sans" />
+
+            <Button
+                android:id="@+id/call1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="13"
+                android:drawableTop="@drawable/minfo"
+                android:onClick="mOnClickDev"
+                android:text="@string/main_bt_dev"
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:typeface="sans" />
+
+            <Button
+                android:id="@+id/call1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="13"
+                android:drawableTop="@drawable/mver"
+                android:onClick="mOnClickInfo"
+                android:text="@string/main_bt_info"
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:typeface="sans" />
+        </LinearLayout>
+    </LinearLayout>
+ 	//5-5
+	//5-6
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="2"
+        android:orientation="vertical" >
+    </LinearLayout>
+	//5-6
+
+</LinearLayout>
