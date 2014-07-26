@@ -1,0 +1,173 @@
+<resources>
+
+    <string name="app_name">Car Diary</string>
+    <string name="vs_name">Copyright 2012 neojsy All Rights Reserved.</string>
+    <string name="title_activity_main">Car Diary</string>
+    <string name="topmenu1">주유 기록</string>
+    <string name="topmenu2">연비 계산</string>
+    <string name="topmenu3">정비 관리</string>
+    <string name="topmenu4">체크포인트</string>
+    <string name="topmenu5">어플 정보</string>
+    <string name="menu_settings">어플 정보</string>
+    <string name="oiling_menu1">Total info</string>
+    <string name="oiling_menu2">월별 주유 기록</string>
+    <string name="oiling_menu3">개별 주유 기록</string>
+    <string name="oiling_menu4">메세지 필터 관리</string>
+    <string name="oiling_filter">비교할 문자</string>
+    <string name="oiling_filter_add">메세지 필터 추가</string>
+    <string name="oiling_filter_mod">메세지 필터 수정</string>
+    <string name="oiling_filter_del">메세지 필터 삭제</string>
+    <string name="oiling_filter_needone">삭제할 수 없습니다. 최소한 하나의 필터는 있어야 합니다.</string>
+    <string name="oiling_filter_info">수신되는 주유결제 메세지와 비교할 문자를 직접 관리합니다.\n현재 리스트에 있는 문자들이 개별적으로 문자메세지와 비교되어 한 단어라도 동일한 문자가 존재하면 주유결제 메세지로 처리합니다. 필터 단어는 추가 수정 삭제 가능합니다.</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="yes">확인</string>
+    <string name="no">취소</string>
+    <string name="loading">로딩 중...</string>
+    <string name="oiltotal_totalwon">총 주유 비용</string>
+    <string name="oiltotal_totalnum">총 주유 횟수</string>
+    <string name="oiltotal_everwon">평균 주유 비용</string>
+    <string name="oiltotal_firstrec">주유 기록</string>
+    <string name="oiltotal_lastrec">마지막 주유 기록</string>
+    <string name="oiltotal_msg_noinfo">주유 기록이 없습니다. 
+        카드 결제 SMS를 받았는데도 주유 기록이 남지 않았다면, 사용하시는 카드의 결제 메세지의 문자 패턴을 어플이 파악하지 못한 것입니다.
+        불편하시더라도 문자의 내용을 neojsy@gmail.com으로 보내주시면 다음 업데이트시에 반영하도록 하겠습니다.</string>
+    <string name="oilinput_add">수동 정보 추가</string>
+    <string name="oilinput_card">주유 카드</string>
+    <string name="oilinput_won">주유 요금</string>
+    <string name="oilinput_date">주유 날짜</string>
+    <string name="oilinput_time">주유 시간</string>
+    <string name="oilinput_opt_view">원문 메세지 보기</string>
+    <string name="oilinput_opt_modify">주유 정보 수정</string>
+    <string name="oilinput_opt_delete">주유 정보 삭제</string>
+    <string name="oilinput_opt_deleteq">선택한 주유 정보를 삭제 하시겠습니까?</string>
+    <string name="checklist_opt_deleteq">선택한 체크리스트 정보를 삭제 하시겠습니까?</string>
+    <string name="oilinput_msg_noinput">모든 정보를 입력해 주세요</string>
+    <string name="input_desc">여러가지 계산을 위해서는 현재 총 주행거리와 주유비(리터당 비용)의 정보가 필요합니다.
+		자주 기록할 필요는 없으며, 가끔씩 생각날때 입력하면 입력한 시간과 함께 저장됩니다.
+		SMS로 자동저장되는 주유정보와 함께 시간정보를 통해 계산되어 연비 등을 계산하는데 사용 됩니다.
+		어플의 취지는 귀차니즈에 따른 정보 관리이지만, 이러한 방법으로는 사실 정확한 수치의 제공은 어려우며 단지 근사치로서 참고만 하시기 바랍니다.
+		그리고, 체크포인트 정보를 자주 입력할수록 기록 기간이 늘어날수록 오차는 줄어들게 됩니다.          
+</string>
+    <string name="input_totaldis">총 주행 거리 (km)</string>
+    <string name="input_oilliterwon">리터당 주유비 (원)</string>
+    <string name="input_save">저장</string>
+    <string name="input_cancel">취소</string>
+    <string name="input_viewlog">저장된 체크포인트 정보</string>
+    <string name="input_logsaved">저장 되었습니다</string>
+    <string name="input_logfailed">저장에 실패 하였습니다</string>
+    <string name="input_nodistance">마지막 입력한 거리보다 지금 입력한 거리가 작습니다. 이럴수는 없습니다. 다시 확인하시고 입력해주세요.</string>
+    <string name="repair_engine_oil">엔진 오일</string>
+    <string name="repair_mission_oil">미션 오일</string>
+    <string name="repair_break_oil">브레이크 오일</string>
+    <string name="repair_power_steering_oil">파워스티어링 오일</string>
+    <string name="repair_spark_plug">점화플러그</string>
+    <string name="repair_spark_plug_cable">점화플러그 오일</string>
+    <string name="repair_timing_belt">타이밍 벨트</string>
+    <string name="repair_break_pad">브레이크 패드</string>
+    <string name="repair_break_lining">브레이크 라이닝</string>
+    <string name="repair_tire_change">타이어 위치변경</string>
+    <string name="repair_name">부품명</string>
+    <string name="repair_period">정비 주기</string>
+    <string name="repair_prerecord">이전 정비 기록</string>
+    <string name="repair_now">Progress</string>
+    <string name="repair_plan">다음 정비 시기</string>
+    <string name="repair_list_change">부품 정비 기록</string>
+    <string name="repair_list_modify">부품 정보 수정</string>
+    <string name="repair_list_delete">부품 정보 삭제</string>
+    <string name="repair_msg_delete">선택한 부품 정보를 삭제 하시겠습니까?</string>
+    <string name="repair_list_add_item">부품 추가</string>
+    <string name="repair_list_input_title">추가할 새로운 부품의 정보를 입력하세요</string>
+    <string name="repair_list_change_title">부품을 정비하는 순간의 차량의 총 주행 거리를 입력해 주세요</string>
+    <string name="repair_input_now_kilo">총 주행 거리 (km)</string>
+    <string name="repair_list_modify_title">항목의 변경할 정보를 입력하세요</string>
+    <string name="yunbi_title">총 누적 연비</string>
+    <string name="yunbi_total_distance">계산된 총 주행 거리</string>
+    <string name="yunbi_total_oiling">사용된 연료량 추정치</string>
+    <string name="yunbi_total_record_time">계산 기간</string>
+    <string name="yunbi_total_msg_noinfo">연비 계산에 필요한 정보가 충분하지 않습니다. 
+        메인메뉴의 체크포인트를 클릭하여 정보를 입력해 주세요.
+        정보가 누적되면 연비 정보를 볼 수 있습니다.</string>
+    <string name="main_info_name">개발자</string>
+    <string name="main_info_maker">분노의하이킥</string>
+    <string name="main_info_email">이메일</string>
+    <string name="main_info_email_url">neojsy@gmail.com</string>
+    <string name="main_info_blog">블로그</string>
+    <string name="main_info_blog_url">neojsy.tistory.com</string>
+    <string name="main_info_tk">Thank you!</string>
+    <string name="main_info_my">꼼꼼하고 세심하게...\n도덕적으로 완벽한...</string>
+    <string name="main_updateinfo">업데이트 정보</string>
+   
+    <string name="update0001">
+ 	SMS메세지를 자동으로 인식하지 못하거나, 비용의 오류가 있을때에는 neojsy@gmail.com으로 SMS메세지를 복사해서 그대로 보내주세요.\n\n
+ 	- 투표팝업제거\n
+	투표결과에 혼란스러워 업데이트가 늦었습니다. 얼른 제거하라는 다그침에 조금 서운하기도 했지만... 마음도 추스리고 큰 오류도 없으니 당분간은 업데이트 없을것 같네요. 피드백은 계속 보내주세요.\n
+    \n
+ 	- V beta 4\n
+	기록이 저장되는 파일이 sdcard에 저장되어 실수로 삭제하는 일이 발생하여 폴더를 생성하여 저장되도록 변경하였습니다.\n
+    \n
+	- V beta 3\n
+	수신되는 문자메세지를 주유결제 문자인지 판단하는 문자 필터를 사용자가 직접 수정 추가 가능하도록 메세지필터 관리 기능이 추가되었습니다.\n
+    \n      
+    - V beta 2\n
+	문자메세지 중 "충전" 글자에 저장되는 오류를 수정하였습니다.\n
+	GUI가 약간 수정 되었습니다.\n  
+    \n      
+    - V beta\n
+	체크포인트 기록 삭제 기능이 추가 되었습니다.\n
+	12시가 00시로 나오던 문제가 수정 되었습니다.\n  
+	메인 메뉴 GUI가 변경 되었습니다.\n  
+    \n  
+    - V alpha 3\n
+	기업BC,씨티카드 등의 카드 인식 오류가 수정 되었습니다.\n
+	주유기록의 수정, 삭제 기능이 추가 되었습니다.\n  
+	GUI가 개선 되었습니다.\n  
+    \n
+    - V alpha 2\n
+	SMS 판독의 오류로 카드 결제 메세지를 인지하지 못하는 문제가 수정되었습니다.\n
+	주유 정보를 수동 입력할 수 있는 메뉴가 추가 되었습니다.   \n  
+    \n
+    - V alpha\n
+ 	세번째 앱이 완성 되었습니다.\n
+	누군가가 차계부 어떠냐..해서 찾아봤더니 의외로 좋은게 없더군요.\n
+	그래서, 만들었습니다.\n
+	\n
+	저도 차를 몰지만 사실 왠만큼 차에 애정을 두지 않고서야 차계부를 기록하기 쉽지 않습니다.\n
+	가끔하는 정비는 그렇다쳐도 자주하는 주유는 너무 번거럽습니다.\n
+	그래서, 카드결제시 오는 문자정보로 자동 저장하는 방식을 생각했습니다.\n
+	생각해보니 꽤나 괜찮은 생각인것 같습니다.\n
+	\n
+	문자를 읽어서 주유비를 자동으로 찾아서 빼야 합니다.\n
+	카드, 승인, 결제, 주유 등등의 문자로 판단하면 생각보다 쉽게 될 것 같습니다.\n
+	그런데, 카드사마다 문자메세지 문구가 다릅니다.\n
+	의외로 인터넷을 찾아봐도 나오지 않습니다.\n
+	자주가는 인터넷 커뮤니티로 가서 도움을 요청했습니다.\n
+	무플...\n
+	일단 오픈하고 나서 누군가 피드백 보내주면 수정하기로 했습니다.\n
+	\n
+	주유, 정비 소스는 마무리 했습니다. 뭐 이런건 쉬운거니...\n
+	연비 정보를 보여주고 싶었습니다.\n
+	스마트하게...\n
+	주유정보는 저장되니, 기름값과 주행거리만 알면 됩니다.\n
+	\n
+	고민을 해봅니다.\n
+	아무리 생각해봐도 사용자의 입력 없인 불가능 합니다.\n
+	그러자고 주유할때마다 아니면 주기적으로 정보를 입력 하는건 이앱의 모토인 귀차니즘에 맞지 않습니다.\n
+	\n
+	그래서, 사용자가 가끔 너무 심심할때 한번씩 입력해주는 정보로 계산을 해보자 결정 했습니다.\n
+	그러면 그 정보와 주유정보를 대략 계산해보면 연비를 계산할 수 있습니다.\n
+	하지만, 계산식을 만들다보니 음...\n
+	아무때나 들어오는 주유정보와 아무때나 들어오지 않을지도 모르는 입력 정보를 가지고는 정확히 계산하기란 불가능하단걸 알았습니다.\n 
+	복잡하게 계산하면 오차를 줄일 수 있었지만, 이거하자고 미적분 할수는 없었습니다.\n
+	\n
+	나름 머리를 굴려서 조합을 해보았습니다.\n
+	입력횟수가 많아 지고, 기간이 늘어나서 누적되는 데이터가 많아지면 통계적으로다가 얼추 비슷해질것 같습니다.\n
+	뭐 연비란게 어차피 그런것 아니겠습니까? 하하하\n
+	\n
+	제대로 앱이 돌아갈지 의문입니다.\n
+	제가 요새 차를 가지고 다니지 않는 관계로 테스트는 못했습니다.\n
+	연비가 막 3,4 아니면 30,40 나와도 놀라지 마세요.\n
+	아마, 계산이 잘못된 것입니다. \n
+	차는 문제 없습니다.\n
+</string>
+
+</resources>

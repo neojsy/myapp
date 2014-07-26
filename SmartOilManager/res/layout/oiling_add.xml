@@ -1,0 +1,214 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/car" >
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/head" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="#00000000"
+            android:text="@string/oilinput_add"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffffff"
+            android:textSize="24dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/header"
+        android:padding="20dp" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout21"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/backbd"
+            android:padding="1dp" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/back" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:text="@string/oilinput_card" />
+
+            <EditText
+                android:id="@+id/oiling_input_text1"
+                android:layout_width="150dp"
+                android:layout_height="48dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="8dp"
+                android:ems="10" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout22"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/relativeLayout21"
+            android:layout_below="@+id/relativeLayout21"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backbd"
+            android:padding="1dp" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/back" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:text="@string/oilinput_won"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/oiling_input_text2"
+                android:layout_width="150dp"
+                android:layout_height="48dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="8dp"
+                android:ems="10"
+                android:inputType="number" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout23"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/relativeLayout22"
+            android:layout_below="@+id/relativeLayout22"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backbd"
+            android:padding="1dp" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/back" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:text="@string/oilinput_date"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <Button
+                android:id="@+id/oiling_date"
+                android:layout_width="150dp"
+                android:layout_height="48dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="8dp"
+                android:text="@string/yes" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout24"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/relativeLayout23"
+            android:layout_below="@+id/relativeLayout23"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backbd"
+            android:padding="1dp" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/back" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:text="@string/oilinput_time"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <Button
+                android:id="@+id/oiling_time"
+                android:layout_width="150dp"
+                android:layout_height="48dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="8dp"
+                android:text="@string/yes" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/relativeLayout24"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/oiling_ok"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="oildataadd"
+                android:text="@string/yes" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

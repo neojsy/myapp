@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="0dp" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/backbd"
+        android:padding="8dp" >
+
+        <TextView
+            android:id="@+id/chartmonth"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="12월"
+            android:textColor="#333333"
+            android:textSize="20dp" />
+
+        <ProgressBar
+            android:id="@+id/chartprogressBar1"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="16dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/chartmonth" />
+
+        <TextView
+            android:id="@+id/chartwon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/chartprogressBar1"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="6dp"
+            android:text="5000000원"
+            android:textColor="#ffffff"
+            android:textSize="10dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

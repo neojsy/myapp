@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/repair_change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/oiling_filter" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/oil_filter_str"
+        android:layout_width="200dip"
+        android:layout_height="35dip"
+        android:inputType="text"
+        android:layout_marginRight="10dp" />
+
+</LinearLayout>

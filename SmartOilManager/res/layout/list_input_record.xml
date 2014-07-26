@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="0dp" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/backbd"
+        android:padding="8dp" >
+
+        <TextView
+            android:id="@+id/inputdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="22dp"
+            android:textColor="#4169e1"
+            android:text="12.12.12" />
+
+        <TextView
+            android:id="@+id/inputkilo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center_vertical"
+            android:text="5000km" />
+
+        <TextView
+            android:id="@+id/inputliterwon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/inputkilo"
+            android:layout_below="@+id/inputkilo"
+            android:text="1200원" />
+    </RelativeLayout>
+
+</RelativeLayout>

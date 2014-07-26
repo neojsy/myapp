@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="0dp" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/backbd"
+        android:padding="8dp" >
+
+        <TextView
+            android:id="@+id/oilingtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center_vertical"
+            android:text="12년12월12일" />
+
+        <TextView
+            android:id="@+id/oilingwon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="50000원"
+            android:textColor="#4169e1"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/oilingcard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/oilingtime"
+            android:layout_marginTop="5dp"
+            android:text="신한카드결제" />
+    </RelativeLayout>
+
+</RelativeLayout>
